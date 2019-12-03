@@ -1,10 +1,9 @@
+import java.util.Scanner;
 public class thomasoffer {
     public static void main(String[] args) {
 //  1      Write a program in Java to read 10 numbers from keyboard and find their sum and average
 
-        Expected Output :
-        The sum of 10 numbers is : 55
-        The Average is : 5.500000
+
 
 
 //  2.      Write a Java program that takes the user to provide a single character from the alphabet. Print Vowel or Consonant,
