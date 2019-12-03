@@ -1,7 +1,31 @@
 import java.util.Scanner;
 public class thomasoffer {
     public static void main(String[] args) {
-//  1      Write a program in Java to read 10 numbers from keyboard and find their sum and average
+
+        //  1 Write a Java program to compare two numbers.
+
+        Scanner input = new Scanner(System.in);
+        int num1;
+        int num2;
+
+        System.out.print( "Give me a numberr: " );
+        number1 = input.nextInt();
+
+        System.out.print( "give me another number: " );
+        number2 = input.nextInt();
+
+        if ( num1 == num2 )
+            System.out.printf( "%d == %d\n", num1, num2 );
+        if ( num1 != num2 )
+            System.out.printf( "%d != %d\n", num1, num2 );
+        if ( num1 < num2 )
+            System.out.printf( "%d < %d\n", num1, num2 );
+        if ( num1 > num2 )
+            System.out.printf( "%d > %d\n", num1, num2 );
+        if ( num1 <= num2 )
+            System.out.printf( "%d <= %d\n", num1, num2 );
+        if ( num1 >= num2 )
+            System.out.printf( "%d >= %d\n", num1, num2 );
 
 
 
