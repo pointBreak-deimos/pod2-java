@@ -1,4 +1,5 @@
 public class andrew_arrayDuplicates {
+//    Show the duplicates in an array of strings
 
     public static void main(String[] args) {
 
