@@ -8,10 +8,10 @@ public class thomasoffer {
         int num1;
         int num2;
 
-        System.out.print( "Give me a numberr: " );
+        System.out.print( "Please give me a number: " );
         number1 = input.nextInt();
 
-        System.out.print( "give me another number: " );
+        System.out.print( "Please give me another number: " );
         number2 = input.nextInt();
 
         if ( num1 == num2 )
@@ -62,7 +62,7 @@ public class thomasoffer {
         }
     }
 
-//    3.
+//    3. see madlib
 
 
     }
