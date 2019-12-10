@@ -9,10 +9,10 @@ public class thomasoffer {
         int num2;
 
         System.out.print( "Please give me a number: " );
-        number1 = input.nextInt();
+        num1 = input.nextInt();
 
         System.out.print( "Please give me another number: " );
-        number2 = input.nextInt();
+        num2 = input.nextInt();
 
         if ( num1 == num2 )
             System.out.printf( "%d == %d\n", num1, num2 );
@@ -37,14 +37,14 @@ public class thomasoffer {
         Scanner letter = new Scanner(System.in);
 
         System.out.print("Please input a letter: ");
-        String input = letter.next().toLowerCase();
+        String input1 = letter.next().toLowerCase();
 
-        boolean uppercase = input.charAt(0) >= 65 && input.charAt(0) <= 90;
-        boolean lowercase = input.charAt(0) >= 97 && input.charAt(0) <= 122;
+        boolean uppercase = input1.charAt(0) >= 65 && input1.charAt(0) <= 90;
+        boolean lowercase = input1.charAt(0) >= 97 && input1.charAt(0) <= 122;
         boolean vowels = input.equals("a") || input.equals("e") || input.equals("i")
                 || input.equals("o") || input.equals("u");
 
-        if (input.length() > 1)
+        if (input1.length() > 1)
         {
             System.out.println("Error. Not a single character.");
         }
@@ -67,4 +67,3 @@ public class thomasoffer {
 
     }
 
-}
